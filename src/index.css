@@ -10,7 +10,7 @@
 }
 
 :root {
-  --color-medium-grey: #778899;
+  --color-medium-grey: #606060;
 }
 
 html {
@@ -32,6 +32,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   line-height: 1.6;
+  color: var(--color-medium-grey);
 }
 
 code {
