@@ -8,6 +8,7 @@
   z-index: 99;
   overflow-y: auto;
   cursor: pointer;
+  user-select: none;
 }
 
 .modal-box {
@@ -35,6 +36,7 @@
   top: 1rem;
   right: 1rem;
   cursor: pointer;
+  user-select: none;
 }
 
 .icon svg {
