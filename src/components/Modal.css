@@ -1,0 +1,41 @@
+.blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.768);
+  z-index: 99;
+  overflow-y: auto;
+}
+
+.modal-box {
+  width: 80vw;
+  background: white;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  margin: auto auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  height: 85vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-radius: 2rem;
+}
+
+.icon {
+  width: 2.5rem;
+  width: 2.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.icon svg {
+  color: var(--color-medium-grey);
+}
