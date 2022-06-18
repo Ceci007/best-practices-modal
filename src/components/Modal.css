@@ -9,6 +9,8 @@
   overflow-y: auto;
   cursor: pointer;
   user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .modal-box {
@@ -37,6 +39,8 @@
   right: 1rem;
   cursor: pointer;
   user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .icon svg {
